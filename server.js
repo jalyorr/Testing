@@ -9,10 +9,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Configuración de la conexión a PostgreSQL
 const pool = new Pool({
-    user: 'postgres',      // Reemplaza con tu usuario de PostgreSQL
-    host: 'localhost',
-    database: 'usuarios_db', // Nombre de tu base de datos
-    password: 'master96', // Reemplaza con tu contraseña de PostgreSQL
+    user: 'test_db_ocp8_user',      // Reemplaza con tu usuario de PostgreSQL
+    host: 'dpg-ct4i993qf0us7381qa80-a',
+    database: 'test_db_ocp8', // Nombre de tu base de datos
+    password: 'pv1DK352ggg6V8GOTMz4c0aUFhqJPWc4', // Reemplaza con tu contraseña de PostgreSQL
     port: 5432
 });
 
